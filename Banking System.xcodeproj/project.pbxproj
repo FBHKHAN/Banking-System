@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9DC2FAC21CADE9B6003094A4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DC2FAC11CADE9B6003094A4 /* main.cpp */; };
+		9DC2FACA1CADE9EA003094A4 /* Name.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DC2FAC81CADE9EA003094A4 /* Name.cpp */; };
+		9DC2FACD1CADEA7C003094A4 /* Transaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DC2FACB1CADEA7C003094A4 /* Transaction.cpp */; };
+		9DC2FAD01CADEB33003094A4 /* Depositor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DC2FACE1CADEB33003094A4 /* Depositor.cpp */; };
+		9DC2FAD31CADEB91003094A4 /* Bank.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DC2FAD11CADEB91003094A4 /* Bank.cpp */; };
+		9DC2FAD61CADEB99003094A4 /* Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DC2FAD41CADEB99003094A4 /* Account.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,17 @@
 /* Begin PBXFileReference section */
 		9DC2FABE1CADE9B6003094A4 /* Banking System */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Banking System"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC2FAC11CADE9B6003094A4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9DC2FAC81CADE9EA003094A4 /* Name.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Name.cpp; sourceTree = "<group>"; };
+		9DC2FAC91CADE9EA003094A4 /* Name.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Name.hpp; sourceTree = "<group>"; };
+		9DC2FACB1CADEA7C003094A4 /* Transaction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transaction.cpp; sourceTree = "<group>"; };
+		9DC2FACC1CADEA7C003094A4 /* Transaction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Transaction.hpp; sourceTree = "<group>"; };
+		9DC2FACE1CADEB33003094A4 /* Depositor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Depositor.cpp; sourceTree = "<group>"; };
+		9DC2FACF1CADEB33003094A4 /* Depositor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Depositor.hpp; sourceTree = "<group>"; };
+		9DC2FAD11CADEB91003094A4 /* Bank.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bank.cpp; sourceTree = "<group>"; };
+		9DC2FAD21CADEB91003094A4 /* Bank.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Bank.hpp; sourceTree = "<group>"; };
+		9DC2FAD41CADEB99003094A4 /* Account.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Account.cpp; sourceTree = "<group>"; };
+		9DC2FAD51CADEB99003094A4 /* Account.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Account.hpp; sourceTree = "<group>"; };
+		9DC2FAD71CADECB7003094A4 /* myinput */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = myinput; path = "../../../../Library/Developer/Xcode/DerivedData/Banking_System-bhlwipcldtuhomgvtzkfqfdkipcn/Build/Products/Debug/myinput"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,17 @@
 			isa = PBXGroup;
 			children = (
 				9DC2FAC11CADE9B6003094A4 /* main.cpp */,
+				9DC2FAD71CADECB7003094A4 /* myinput */,
+				9DC2FACE1CADEB33003094A4 /* Depositor.cpp */,
+				9DC2FACF1CADEB33003094A4 /* Depositor.hpp */,
+				9DC2FAC81CADE9EA003094A4 /* Name.cpp */,
+				9DC2FAD11CADEB91003094A4 /* Bank.cpp */,
+				9DC2FAD21CADEB91003094A4 /* Bank.hpp */,
+				9DC2FAD41CADEB99003094A4 /* Account.cpp */,
+				9DC2FAD51CADEB99003094A4 /* Account.hpp */,
+				9DC2FAC91CADE9EA003094A4 /* Name.hpp */,
+				9DC2FACB1CADEA7C003094A4 /* Transaction.cpp */,
+				9DC2FACC1CADEA7C003094A4 /* Transaction.hpp */,
 			);
 			path = "Banking System";
 			sourceTree = "<group>";
@@ -118,7 +145,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC2FACD1CADEA7C003094A4 /* Transaction.cpp in Sources */,
+				9DC2FAD61CADEB99003094A4 /* Account.cpp in Sources */,
+				9DC2FACA1CADE9EA003094A4 /* Name.cpp in Sources */,
 				9DC2FAC21CADE9B6003094A4 /* main.cpp in Sources */,
+				9DC2FAD01CADEB33003094A4 /* Depositor.cpp in Sources */,
+				9DC2FAD31CADEB91003094A4 /* Bank.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
