@@ -41,6 +41,7 @@
 		9DC2FAD41CADEB99003094A4 /* Account.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Account.cpp; sourceTree = "<group>"; };
 		9DC2FAD51CADEB99003094A4 /* Account.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Account.hpp; sourceTree = "<group>"; };
 		9DC2FAD71CADECB7003094A4 /* myinput */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = myinput; path = "../../../../Library/Developer/Xcode/DerivedData/Banking_System-bhlwipcldtuhomgvtzkfqfdkipcn/Build/Products/Debug/myinput"; sourceTree = "<group>"; };
+		9DC2FADE1CADF9C2003094A4 /* Output_images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Output_images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		9DC2FAB51CADE9B6003094A4 = {
 			isa = PBXGroup;
 			children = (
+				9DC2FADE1CADF9C2003094A4 /* Output_images */,
 				9DC2FAC01CADE9B6003094A4 /* Banking System */,
 				9DC2FABF1CADE9B6003094A4 /* Products */,
 			);
