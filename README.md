@@ -9,7 +9,7 @@ This is one of my homework assignments assigned in "Advanced Programming Techniq
 - Balance Check
 - Close Account, etc.
 
-# Output
+## Output
 ##### New Account:
 ![New Account](https://raw.githubusercontent.com/FBHKHAN/Banking-System/master/Output_images/new_account.png)
 ##### Deposit:
